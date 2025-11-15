@@ -114,6 +114,13 @@ case "$( uname )" in                #(
   NONSTOP* )        nonstop=true ;;
 esac
 
+# Add node to PATH for React Native (macOS specific)
+if [ "$darwin" = "true" ] ; then
+    if [ -d "/opt/homebrew/opt/node@20/bin" ] ; then
+        export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
+    fi
+fi
+
 CLASSPATH="\\\"\\\""
 
 
