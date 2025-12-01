@@ -39,6 +39,19 @@ export {
   useAutoReconnect,
 } from './hooks';
 
+// UI Components (Phase 3)
+export {
+  // Combined Provider
+  ChatProvider,
+  // Message Components
+  ChatMessageList,
+  ChatInput,
+  // Channel Components
+  ChatChannelList,
+  // Screen Components
+  ChatScreen,
+} from './components';
+
 // Types
 export * from './types';
 
