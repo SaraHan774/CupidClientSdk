@@ -19,6 +19,26 @@ export {WebSocketClient} from './core/WebSocketClient';
 // Modules
 export {ChannelModule, MessageModule, UserModule} from './modules';
 
+// React Hooks
+export {
+  // Provider & Context
+  ChatSDKProvider,
+  useChatSDK,
+  useChatSDKInstance,
+  useRequiredChatSDK,
+  // Channel Hooks
+  useChatChannel,
+  useChannelList,
+  // Message Hooks
+  useChatMessages,
+  // Real-time Hooks
+  useTypingIndicator,
+  useReadReceipts,
+  // Connection Hooks
+  useConnectionState,
+  useAutoReconnect,
+} from './hooks';
+
 // Types
 export * from './types';
 
