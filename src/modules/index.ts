@@ -1,5 +1,7 @@
 /**
  * modules - 모듈 export
- * 모든 모듈을 export합니다.
  */
 
+export {ChannelModule} from './ChannelModule';
+export {MessageModule} from './MessageModule';
+export {UserModule} from './UserModule';
